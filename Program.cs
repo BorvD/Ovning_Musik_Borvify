@@ -7,6 +7,7 @@ namespace Ovning_Musik_Borvify
     {
         static void Main(string[] args)
         {
+            // Starts RunStartWindow that leads to the FreeUser class
             StartWindow startWindow = new StartWindow();
             startWindow.RunStartWindow();
 

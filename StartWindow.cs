@@ -11,6 +11,8 @@ namespace Ovning_Musik_Borvify
         public void RunStartWindow()
         {
             // Welcome text
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"-------------------");
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Welcome to Borvify");
             Console.ForegroundColor = ConsoleColor.Yellow;
