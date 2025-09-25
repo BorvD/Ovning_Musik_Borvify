@@ -18,7 +18,7 @@ namespace Ovning_Musik_Borvify
             Console.WriteLine("Type the number of the band to view their albums");
             Console.WriteLine("1: Gun's n Roses");
             Console.WriteLine("2: Nemo's Orchestra");
-            Console.WriteLine("3: BorvBand");
+            Console.WriteLine("3: BorveBand");
             Console.WriteLine("Type:");
 
 

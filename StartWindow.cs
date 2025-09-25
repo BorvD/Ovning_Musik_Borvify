@@ -13,7 +13,7 @@ namespace Ovning_Musik_Borvify
             // Welcome text
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine($"-------------------");
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Welcome to Borvify");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Choose what type of membership by typing either      '1 = Free User'      '2 = Premium User");
