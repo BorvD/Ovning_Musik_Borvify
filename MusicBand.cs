@@ -19,8 +19,32 @@ namespace Ovning_Musik_Borvify
             Console.WriteLine("1: Gun's n Roses");
             Console.WriteLine("2: Nemo's Orchestra");
             Console.WriteLine("3: BorveBand");
+            Console.WriteLine("0: Return to");
             Console.WriteLine("Type:");
 
+            Console.ForegroundColor = ConsoleColor.Red;
+            string musicBand = Console.ReadLine();
+
+            if (musicBand == "1")
+            {
+                GunsNRoses gunsNRoses = new GunsNRoses();
+                gunsNRoses.bandTemplate();
+            }
+            else if (musicBand == "2")
+            {
+                NemosOrchestra nemosOrchestra = new NemosOrchestra();
+                nemosOrchestra.bandTemplate();
+            }
+            else if (musicBand == "3")
+            {
+                BorveBand borveBand = new BorveBand();
+                borveBand.bandTemplate();
+            }
+            else if (musicBand == "0")
+            {
+                StartWindow startWindow = new StartWindow();
+                startWindow.RunStartWindow();
+            }
 
         }
     }

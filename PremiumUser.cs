@@ -20,7 +20,7 @@ namespace Ovning_Musik_Borvify
             Console.WriteLine($"Welcome Sexy Börve!!");
             Console.WriteLine($"Type:");
             Console.WriteLine("1: Go to Band menu");
-            Console.WriteLine("2: Change user");
+            Console.WriteLine("0: Change user");
 
             Console.ForegroundColor = ConsoleColor.Red;
             string musicBandMenu = Console.ReadLine(); 
@@ -30,7 +30,7 @@ namespace Ovning_Musik_Borvify
                 MusicBand musicBand = new MusicBand();
                 musicBand.RunMusicBand();
             }
-            else if (musicBandMenu == "2")
+            else if (musicBandMenu == "0")
             {
                 StartWindow startWindow = new StartWindow();
                 startWindow.RunStartWindow();
