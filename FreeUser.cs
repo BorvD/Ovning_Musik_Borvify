@@ -14,6 +14,9 @@ namespace Ovning_Musik_Borvify
             Console.WriteLine($"-------------------");
             Console.ForegroundColor= ConsoleColor.Yellow;
             Console.WriteLine($"Welcome Budget Börve!!");
+
+            MusicBand musicBand = new MusicBand();
+            musicBand.RunMusicBand();
         }
     }
 }

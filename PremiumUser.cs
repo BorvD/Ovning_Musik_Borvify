@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +15,9 @@ namespace Ovning_Musik_Borvify
             Console.WriteLine($"-------------------");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"Welcome Sexy Börve!!");
+
+            MusicBand musicBand = new MusicBand();
+            musicBand.RunMusicBand();
         }
     }
 }
